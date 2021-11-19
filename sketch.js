@@ -89,7 +89,7 @@ function draw() {
   fill("black")
   textSize(29);
   textFont("Bold");
-  text("Score: " + score, width / 5, height / 10, 70);
+  text("Score: " + score, width / 5, height / 10, 900);
   text("HI: " + localStorage[0], width / 20, height / 10);
 
   if (gameState === PLAY) {
